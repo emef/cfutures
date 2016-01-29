@@ -1,0 +1,19 @@
+<project
+    script = "zproject.gsl"
+    name = "cfutures"
+    repository = "git://github.com/emef/cfutures.git">
+
+  <include filename = "license.xml" />
+  <header name = "prelude"/>
+  <header name = "internal" private = "1" />
+
+  <!-- public -->
+  <class name = "future" />
+  <class name = "future_pool" />
+  <class name = "promise" />
+
+  <!-- private -->
+  <class name = "executor" private = "1" />
+  <class name = "queue" private = "1" />
+
+</project>

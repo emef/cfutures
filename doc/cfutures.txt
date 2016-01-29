@@ -1,0 +1,25 @@
+Name(7)
+=======
+
+
+NAME
+----
+cfutures - Project
+
+
+SYNOPSIS
+--------
+----
+#include <cfutures.h>
+
+cc ['flags'] 'files' -lcfutures ['libraries']
+----
+
+
+DESCRIPTION
+-----------
+
+Classes
+~~~~~~~
+
+Something.

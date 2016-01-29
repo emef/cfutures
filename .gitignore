@@ -1,0 +1,76 @@
+# Object files
+*.o
+*.so
+*.ko
+*.pyc
+
+# Libraries
+*.lib
+*.a
+*.la
+*.pc
+*.dll.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so.*
+*.dylib
+*.lo
+
+# Executables
+src/cfutures_selftest
+src/cfutures_selftest
+*.exe
+*.out
+*.app
+core
+
+# Man pages
+doc/*.1
+doc/*.3
+doc/*.7
+
+# autoconf files
+.deps
+.libs
+*.log
+*.trs
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache/
+config.log
+config.status
+config/
+configure
+libtool
+src/platform.h
+src/platform.h.in
+src/platform.h.in~
+src/stamp-h1
+src/test-suite.log
+src/.dirstamp
+
+# CMake cache
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+cmake_install.cmake
+install_manifest.txt
+Testing/
+
+# Android build results
+builds/android/prefix
+
+# Android - generated directories
+src/app/bin/
+src/app/gen/
+src/app/obj/
+src/app/local.properties
+
+# Android -dependencies
+src/app/jni/output
+
+# Temporary files
+*.swp
+*~
