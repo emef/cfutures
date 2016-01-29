@@ -1,9 +1,17 @@
 # cfutures
 Promise / Future library in c
 
+###Installation
+```sh
+git clone https://github.com/emef/cfutures
+./autogen.sh
+./configure
+make
+sudo make install
+```
+
 ### Future executor pool example usage (from selftests)
 ```c
-
 typedef struct {
     int a, b;
 } test_args_t;
